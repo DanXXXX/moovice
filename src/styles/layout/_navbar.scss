@@ -1,0 +1,21 @@
+.navbar {
+    width: 90vw;
+    background-color: $bg-color-primary;
+    text-align: center;
+    
+    &__ul {
+        display: flex;
+        justify-content: space-around;
+        
+        &-li {
+
+            text-decoration: none;
+        }
+        
+        .nav__link {
+            margin-right: 1rem;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

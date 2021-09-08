@@ -19,21 +19,24 @@ class Navbar extends React.Component {
                                 <Link to="/" className="nav__link">Home</Link>
                             </li>
                             <li className="navbar__ul-li">
-                                <Link to="/movie" className="nav__link">Movie</Link>
+                                <Link to="/Popular" className="nav__link">Popular</Link>
                             </li>
-
-                            {/* <li className="navbar__ul-li">    
-                                <Link to="*" className="nav__link">Error404</Link>
-                            </li> */}
-                                
+                            <li className="navbar__ul-li">
+                                <Link to="/PopularBattle" className="nav__link">Popular-battle</Link>
+                            </li>
+                            <li className="navbar__ul-li">
+                                <Link to="/Weekly" className="nav__link">Weekly</Link>
+                            </li>
+                            <li className="navbar__ul-li">
+                                <Link to="/WeeklyBattle" className="nav__link">Weekly-battle</Link>
+                            </li>
+                            <li className="navbar__ul-li">
+                                <Link to="/Favorites" className="nav__link">Favorites</Link>
+                            </li>
                         </ul>
-                    </nav>
-
-                    
-                </div>
-            
+                    </nav>   
+                </div>  
          );
     }
 }
- 
 export default Navbar;
